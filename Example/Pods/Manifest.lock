@@ -1,0 +1,35 @@
+PODS:
+  - Expecta (1.0.5)
+  - Expecta+Snapshots (3.0.0):
+    - Expecta (~> 1.0)
+    - FBSnapshotTestCase/Core (~> 2.0)
+    - Specta (~> 1.0)
+  - FBSnapshotTestCase (2.1.1):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.1)
+  - FBSnapshotTestCase/Core (2.1.1)
+  - FBSnapshotTestCase/SwiftSupport (2.1.1):
+    - FBSnapshotTestCase/Core
+  - Specta (1.0.5)
+  - Transform (0.1.0)
+
+DEPENDENCIES:
+  - Expecta
+  - Expecta+Snapshots
+  - FBSnapshotTestCase
+  - Specta
+  - Transform (from `../`)
+
+EXTERNAL SOURCES:
+  Transform:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
+  Expecta+Snapshots: c343f410c7a6392f3e22e78f94c44b6c0749a516
+  FBSnapshotTestCase: 432afd8d059ccef7f207225894840a03fbcf7474
+  Specta: ac94d110b865115fe60ff2c6d7281053c6f8e8a2
+  Transform: 5921367e48af593abd7e49b093f59880471f778f
+
+PODFILE CHECKSUM: 70f28742c3c03e025f688fb621658514b9efd464
+
+COCOAPODS: 1.0.1
